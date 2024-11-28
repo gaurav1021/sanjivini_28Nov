@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--======== Css =========== -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <!--======= Google Fonts =========-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!--======= Bootstrap icons =======-->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+  <title>
+
+    Sanjivni Rheumatology & Infertility Centre
+  </title>
+</head>
+
+<body onscroll="onScroll()">
+  <header>
+    <nav class="scroll navbar navbar-expand-lg navbar-light bg-light" id="nav">
+      <div class="logo">
+        <a class="logo-link" href="#">
+          <img class="new-logo" src="../images/logo.png" alt="logo">
+          <h2 class="name-logo">Sanjivni Rheumatology & Infertility Centre</h2>
+        </a>
+        <div class="menu-mobile" id="menu-mobile">
+          <button class="open">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d_61_152)">
+                <path d="M10 20H30" stroke="var(--first-color)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M10 12H30" stroke="var(--first-color)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M18 28L30 28" stroke="var(--first-color)" stroke-width="4" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </g>
+              <defs>
+                <filter id="filter0_d_61_152" x="-4" y="0" width="48" height="48" filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="4" />
+                  <feGaussianBlur stdDeviation="2" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_61_152" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_61_152" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+          </button>
+          <button class="close">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30 10L10 30M10 10L30 30" stroke="#FFFAF1" stroke-width="4" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="menu collapse navbar-collapse">
+        <ul class="ul-links">
+          <li><a href="./index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services Offered
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="p-0"><a class="dropdown-item tm" href="#">Some Disease Treated by Rheumatologist</a></li>
+              <li class="p-0"><a class="dropdown-item tm" href="#">Services</a></li>
+              <li class="p-0"><a class="dropdown-item tm" href="#">What to Expect During Visits</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Education
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="p-0"><a class="dropdown-item tm" href="#">Dictionary of Rheumatological Terms</a></li>
+                <li class="p-0"><a class="dropdown-item tm" href="#">Exercise</a></li>
+                <li class="p-0"><a class="dropdown-item tm" href="#">Frequently Asked Questions</a></li>
+              </ul>
+            </li> -->
+          <li><a href="#testimonials">Myths related to arthritis</a></li>
+          <li class="nav-agende">
+            <a href="../contact/contact-us.html">Contact</a>
+          </li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+        <div class="nav-social">
+          <a href="#"><i class="bi bi-facebook nav-icon"></i></a>
+          <a href="#"><i class="bi bi-instagram nav-icon"></i></a>
+          <a href="#"><i class="bi bi-youtube nav-icon"></i></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!------- HOME -------------->
+    <section class="home grid" id="home">
+      <div class="home-container">
+        <div class="home-content">
+          <iframe id="slide" src="./home-slider.html" width="100%" height="100%"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <div class="about-content">
+      <div class="about-text">
+        <div class="exercise">
+          <span class="sub-title-span topRevealSmall">Dr. Alok Kalyani</span>
+          <h2 class="title-about topRevealMedium">MBBS, MD, AFIH Fellow Rheumatology Consultant Rheumatologist</h2>
+          <p class="about-description topRevealLarge">
+            Dr Alok Kalyani is a well known Consultant Physician & Rheumatologist in north-west Delhi. Presently Dr Alok
+            Kalyani is providing services at Clinic and Max Hospital, Shalimar Bagh.
+          </p>
+          <div>
+            <button onclick="window.location.href='#';" class="doc-read-more">Read More</button>
+          </div>
+          <div class="card">
+            <div class="card-img card-img-2"></div>
+            <h4><i class="bi bi-stopwatch"></i> Schedule</h4>
+            <h6>
+              Monday - Saturday
+            </h6>
+            <span>
+              09:00AM - 10:30AM
+            </span>
+            <span>
+              05:00PM - 8:30PM
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="about-img bottomRevealMedium">
+        <img src="../images/dr image.png" alt="imagem de medico sorrindo ao lado de uma paciente mulher e seu filho" />
+      </div>
+    </div>
+
+    <!------- INTRO ------------>
+    <section class="intro">
+      <div class="welcome-text">
+        <h2>Welcome to Arthritis and Rheumatic Diseases Center</h2>
+        <br />
+        <span class="about-description topRevealLarge">Rheumatology is a sub-specialty of internal medicine and
+          paediatrics, involved with the diagnosis and therapy of problems arising in the joints and soft tissues, as
+          well as autoimmune diseases, vasculitis, and heritable connective tissue disorders. Clinicians who trained in
+          rheumatology are called Rheumatologists.</span>
+        <br /><br />
+        <span class="about-description topRevealLarge">Rheumatologists diagnose and focus on non-surgical treatment of
+          arthritis and related rheumatic diseases, such as lupus, rheumatoid arthritis, gout, Fibromyalgia and other
+          disorders of the joints and connective tissues of the body.</span>
+        <br /><br />
+        <span class="about-description topRevealLarge">The simplest way to understand rheumatology is that it deals with
+          ‘aches and pains’ in the joints, spine, muscles and related tissues that help us move our body (also called
+          musculoskeletal or locomotor system). In vernacular it is called ‘Gathia-Bai’. The specialists who deal with
+          rheumatological (‘Gathia-bai’) diseases are known as Rheumatologists.</span>
+        </br></br>
+        <div>
+          <button onclick="window.location.href='#';" class="welcome-read-more">Read More</button>
+        </div>
+      </div>
+      <div class="reviews">
+        <h2>Client Reviews</h2>
+        <iframe id="review-slide" src="./reviews.html" width="100%" height="200px"></iframe>
+      </div>
+    </section>
+
+
+
+
+    <div class="contact-container">
+      <div class="contact-content-data">
+        <h2 class="title-contact bottomRevealSmall">Entre em contato com a gente!</h2>
+        <div class="span-contact bottomRevealMedium">
+          <span><i class="bi bi-geo-alt"></i> R. Amauri Souza, 346</span>
+          <span><i class="bi bi-envelope "></i> contato@beautysalon.com</span>
+        </div>
+        <button class="home-button bottomRevealLarge">
+          <i class="bi bi-whatsapp"></i> Agende sua consulta
+        </button>
+      </div>
+      <div class="contact-content-img topRevealLarge">
+        <img src="../images/contato-home.svg" alt="" />
+      </div>
+    </div>
+    </section> -->
+  </main>
+
+  <!------- FOOTER ------------>
+  <footer>
+    <section class="footer grid">
+      <div class="footer-content">
+        <div class="footer-data">
+          <h2>Doctor<strong>Care</strong></h2>
+          <p>Copyright ©2015 All Rights Reserved.<br> Design & Developed by <a href="" id="trishna">Trishna</a></p>
+        </div>
+
+        <div class="footer-social">
+          <a href="#"><i class="bi bi-facebook nav-icon"></i></a>
+          <a href="#"><i class="bi bi-instagram nav-icon"></i></a>
+          <a href="#"><i class="bi bi-youtube nav-icon"></i></a>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+  <!------- SCROLL TOP ------------>
+  <a id="scrollup" class="back-top" href="#home">
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="20" cy="20" r="20" fill="grey" />
+      <path d="M20 27V13" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M13 20L20 13L27 20" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+
+  </a>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
